@@ -55,7 +55,7 @@ window.addEventListener('scroll', () => {
 // ------------------------ scroll Suave ------------------------
 function scrollSuave() {
   const jsScroll = document.querySelectorAll('.js-scroll')
-  const metadeTela = window.innerHeight * 0.6
+  const metadeTela = window.innerHeight * 0.8
 
   function scrollDetect() {
     jsScroll.forEach((item) => {
